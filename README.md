@@ -6,6 +6,8 @@ The current specification only handles Batch-documents, especially EN 10204-Mate
 ## About the metadata
 The metadata is stored as a json string, preferably in a custom property of the PDF file containing the document(s).
 
+When implementing parsing/reading of these metadata, be aware that not everyone implementing them will use all the fields we have defined.
+
 We have defined that any dates may be supplied formatted as "YYYY-MM-DD" or using the full ISO 8601 standard (http://en.wikipedia.org/wiki/ISO_8601): "2012-03-19T07:22Z"/"2016-01-23T09:49:09.0829697+01:00"(default in Json.Net).
 
 ## Samples in this repository
