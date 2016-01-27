@@ -1,0 +1,52 @@
+{
+  "$id": "1",
+  "Version": "HADocsOpenData-1",
+  "CreateTime": "2016-01-26T13:50:37.0368009+01:00",
+  "Recipient": "The name of the company receiving this document. Typically your customer.",
+  "SupplierName": "Your company name",
+  "BatchDocs": [
+    {
+      "$id": "2",
+      "PoNo": "Purchase Order No",
+      "ManufacturerName": "As stated on document",
+      "ManufacturerDocNo": "As stated on document; E.g. CertificateNo",
+      "CountryOfOrigin": "As stated on document",
+      "RecipientDocNo": "Recipients document number. E.g. for when sending a new revision.",
+      "SupplierDocNo": "Your document number",
+      "SupplierSoNo": "Your sales order number",
+      "SupplierOrderDate": "2016-01-26T00:00:00+01:00",
+      "SupplierDelNo": "Your Delivery number",
+      "SupplierDelDate": "2016-01-26T00:00:00+01:00",
+      "SupplierOrderContactPerson": "Contact person stated on order",
+      "SupplierRef": "Your (as supplier) ref",
+      "OurRef": "Customers ref",
+      "ProjectNo": "Customers internal project number",
+      "ProjectName": "Customers internal project name",
+      "ProjectEmail": "Email specified for customers internal project",
+      "DocRevision": "Revision name of the document (1,2,3/a,b,c/etc)",
+      "DocCreatedDate": "2016-01-26T13:50:37.0398029+01:00",
+      "DocLastChanged": "2016-01-26T13:50:37.0398029+01:00",
+      "Lines": [
+        {
+          "$id": "3",
+          "SpecificationPage": 1,
+          "RelatedPages": "1-2,4-6,7,10",
+          "PoLineNo": "010",
+          "ArticleNo": "Customers article no",
+          "SupplierArticleNo": "Suppliers article no",
+          "NrfNo": "NRF number",
+          "ArticleDescription": "A description of the purchased article",
+          "Dimension": "A specification of the dimensions of the purchased article",
+          "Quality": "Some form of description of the articles quality. E.g. UNS-number",
+          "Quantity": 100.0,
+          "QuantityUnit": "m",
+          "BatchId": "Manufacturers Batch identificator: HeatNo / ChargeNo / Schmelz / BatchNo",
+          "LotNo": "Manufacturers Batch sub identifier",
+          "SerialNo": "Other typical form of identification of complex parts. E.g. Serial number",
+          "CodeNo": "Secondary form of identification of complex parts.",
+          "Tag": "A specialized tag provided by the customer for the orderline related to this."
+        }
+      ]
+    }
+  ]
+}
