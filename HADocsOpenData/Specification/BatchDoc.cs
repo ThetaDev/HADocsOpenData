@@ -63,7 +63,7 @@ namespace HADocsOpenData.Specification {
 
         public string BatchId = "Manufacturers Batch identificator: HeatNo / ChargeNo / Schmelz / BatchNo";
         public string LotNo = "Manufacturers Batch sub identifier";
-        public string SerialNo = "Other typical form of identification of complex parts. E.g. Serial number og PartNo";
+        public string SerialNo = "Other typical form of identification of complex parts. E.g. Serial number or PartNo";
         public string CodeNo = "Secondary form of identification of complex parts.";
         public string Tag = "A specialized tag provided by the customer for the orderline related to this.";
     }
