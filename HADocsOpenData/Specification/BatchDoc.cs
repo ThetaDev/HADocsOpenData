@@ -54,7 +54,7 @@ namespace HADocsOpenData.Specification {
         public string PoLineNo = "010";
         public string ArticleNo = "Customers article no";
         public string SupplierArticleNo = "Suppliers article no";
-        public string NrfNo = "NRF number";
+        public string PublicRegisterArticleNo = "An article number from a public register. Prefixed with a short-name for the public register. E.g. NRF-xxx, NOBB-xxx";
         public string ArticleDescription = "A description of the purchased article";
         public string Dimension = "A specification of the dimensions of the purchased article";
         public string Quality = "Some form of description of the articles quality. E.g. UNS-number";
@@ -63,7 +63,7 @@ namespace HADocsOpenData.Specification {
 
         public string BatchId = "Manufacturers Batch identificator: HeatNo / ChargeNo / Schmelz / BatchNo";
         public string LotNo = "Manufacturers Batch sub identifier";
-        public string SerialNo = "Other typical form of identification of complex parts. E.g. Serial number";
+        public string SerialNo = "Other typical form of identification of complex parts. E.g. Serial number og PartNo";
         public string CodeNo = "Secondary form of identification of complex parts.";
         public string Tag = "A specialized tag provided by the customer for the orderline related to this.";
     }
