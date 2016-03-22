@@ -1,7 +1,7 @@
 # HADocsOpenData
 HADocs Open Data is a metadata specification for exchanging documents. This standard is implemented in HADocs (www.hadocs.com) and has been opened so that companies that has developed their own internal software also can exchange these metadata.
 
-The current specification only handles Batch-documents, especially EN 10204-Material Certificates. We will be expanding these specifications and opening up more of our metadata as we receive requests for this.
+The current specification only handles Batch-documents, especially EN 10204-Material Certificates. We are currently working on expanding these specifications with some of our customers and their suppliers.
 
 ## About the metadata
 The metadata is stored as a json string, preferably in a custom property of the PDF file containing the document(s). We have chosen to store the computer-readable data this way to avoid these data becoming "noise" for those who extensively use the PDF properties for human readable data.
