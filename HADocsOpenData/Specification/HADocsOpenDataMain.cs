@@ -12,7 +12,7 @@ namespace HADocsOpenData.Specification {
     public class HADocsOpenDataMain {
         public string Version = "HADocsOpenData-2";
 
-        public DateTime CreateTime = DateTime.Now;
+        public DateTime CreationTime = DateTime.Now;
         public string PackageDescription = "Name or short description of this document package. E.g. \"MRB-01\", \"Transmittal 4\"";
 
         public string Recipient = "The name of the company receiving this document. Typically your customer.";
