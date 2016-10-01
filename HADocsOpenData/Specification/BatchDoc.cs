@@ -8,32 +8,26 @@ namespace HADocsOpenData.Specification {
     /// Common Batch Documents: Material Certificates
     /// </summary>
     public class BatchDoc {
-        public string PoNo = "Purchase Order No";
+        public string PoNo = "Override: Purchase Order No";
+        public string CustomersRef = "Override: Customers ref";
 
-        public string ManufacturerName = "As stated on document";
-        public string ManufacturerDocNo = "As stated on document; E.g. CertificateNo";
         public string CountryOfOrigin = "As stated on document";
+        public DateTime? ManufacturingDate = DateTime.Now;
 
-        public string RecipientDocNo = "Recipients document number. E.g. for when sending a new revision.";
-        
-        public string SupplierDocNo = "Your document number";
-        public string SupplierSoNo = "Your sales order number";
         public DateTime? SupplierOrderDate = DateTime.Now.Date;
         public string SupplierDelNo = "Your Delivery number";
         public DateTime? SupplierDelDate = DateTime.Now.Date;
-        public string SupplierOrderContactPerson = "Contact person stated on order";
-        public string SupplierRef = "Your (as supplier) ref";
-
-        public string OurRef = "Customers ref";
-        public string ProjectNo = "Customers internal project number";
-        public string ProjectName = "Customers internal project name";
-        public string ProjectEmail = "Email specified for customers internal project";
-
-        public string DocRevision = "Revision name of the document (1,2,3/a,b,c/etc)";
-        public DateTime? DocCreatedDate = DateTime.Now;
-        public DateTime? DocLastChanged = DateTime.Now;
 
         public List<BatchDocLineSpec> Lines = new List<BatchDocLineSpec>();
+
+        //possible overloads from base json-data in HADocsOpenDataMain
+        public string ProjectNo = "Override: Customers internal project number";
+        public string ProjectName = "Override: Customers internal project name";
+        public string ProjectEmail = "Override: Email specified for customers internal project";
+
+        public string SupplierSoNo = "Override: Your (as supplier) sales order number";
+        public string SupplierOrderContactPerson = "Override: Contact person stated on order";
+        public string SupplierRef = "Override: Your (as supplier) ref";
 
         public BatchDoc() {}
 
@@ -42,6 +36,19 @@ namespace HADocsOpenData.Specification {
                 Lines.Add(new BatchDocLineSpec());
             }
         }
+
+        //deprecated fields from version 1
+        public string ManufacturerName;
+        public string ManufacturerDocNo;
+
+        public string OurRef;
+
+        public string RecipientDocNo;
+        public string SupplierDocNo;
+
+        public string DocRevision;
+        public DateTime? DocCreatedDate;
+        public DateTime? DocLastChanged;
     }
 
     /// <summary>
