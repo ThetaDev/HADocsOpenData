@@ -40,6 +40,10 @@ namespace HADocsOpenData.Specification {
                 Docs.Add(new DocDefinition{BatchData = new BatchDoc(noForTesting)});
             }
         }
+
+        //deprecated fields from version 1
+        public List<BatchDoc> BatchDocs = new List<BatchDoc>();
+        public string SupplierName;
     }
 
     public enum EntityType {
