@@ -54,6 +54,7 @@
     <Compile Include="SampleAddToPdf_iTextSharp\PdfManipulation.cs" />
     <Compile Include="Sample_Json.Net\JsonNetSerDeser.cs" />
     <Compile Include="Specification\BatchDoc.cs" />
+    <Compile Include="Specification\BatchTestData.cs" />
     <Compile Include="Specification\DocDefinition.cs" />
     <Compile Include="Specification\GenericDoc.cs" />
     <Compile Include="Specification\HADocsOpenDataMain.cs" />
