@@ -10,6 +10,8 @@ namespace HADocsOpenData.Specification {
         public GenericDoc DocData;
 
         public string CommonDescription = "A optional description currently used when visualizing Open Data.";
+        public string RelativePath = "The relative path to this document. Used only if the package is sent as multiple files.";
+        public string RelativePathBaseFile = "The relative path to the original version of this document. Used only if the package is sent as multiple files.";
 
         public bool? IsPartOfIndex; //Optional indicator that can be used when splitting a package into its separate documents.
 

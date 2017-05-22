@@ -26,7 +26,7 @@ namespace HADocsOpenData.Specification {
 
         public string PoNo = "Purchase Order No";
         public string CustomersRef = "Customers reference to shipment";
-        public string SendersRef = "Senders reference to shipment;
+        public string SendersRef = "Senders reference to shipment";
         public string RecipientRef = "Recipients reference to shipment. Mainly applicable when recipient is third party.";
 
         public string SupplierSoNo = "Your (as supplier) sales order number";

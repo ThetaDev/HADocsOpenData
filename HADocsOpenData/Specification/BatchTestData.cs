@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
-namespace HadocsOpenData {
+namespace HADocsOpenData.Specification {
     public class BatchTestDataSet {
         public string TestReportIssuerName;
         public BatchTestDataSetType TestType;

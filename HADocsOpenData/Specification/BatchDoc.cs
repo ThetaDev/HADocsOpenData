@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using HadocsOpenData;
 
 namespace HADocsOpenData.Specification {
     /// <summary>
@@ -77,5 +76,7 @@ namespace HADocsOpenData.Specification {
         public IList<string> Specifications; //A list of the specifications this product has been produced to fullfill. E.g.: UNS S32550, ASTM A928, Norsok D52 rev. 6 and TR2000 DP204 rev. C
         public IList<BatchTestDataSet> TestDataSets; //A list of numerical test data sets, including test issuer.
         public IList<BatchTestDataChecklistValue> CheckListValues; //A list of text statements about the product and batch document, usually according to checks specified in the specifications.
+
+        public IList<DocDefinition> SubDocs; //An optional list of documents that can be considered sub-documents of this BatchDocLineSpec
     }
 }
