@@ -1,0 +1,205 @@
+{
+  "$id": "1",
+  "Version": "HADocsOpenData-2",
+  "CreationTime": "2017-05-22T13:44:41.2415709+02:00",
+  "PackageDescription": "MRB-01",
+  "Recipient": "Acme Corp",
+  "Sender": "Theta Development AS",
+  "SenderIs": "Supplier",
+  "ProjectNo": "P4598",
+  "ProjectName": "Workers Block",
+  "ProjectEmail": "block@demo.c",
+  "PoNo": "P-7357",
+  "CustomersRef": "R01",
+  "SupplierSoNo": "SO 123",
+  "SupplierRef": "R02",
+  "Docs": [
+    {
+      "$id": "2",
+      "CommonDescription": "Frontpage",
+      "RelativePath": "0000-1-Frontpage.pdf",
+      "IsPartOfIndex": true,
+      "PageNo": 1,
+      "PageCount": 2
+    },
+    {
+      "$id": "3",
+      "CommonDescription": "Section 1 - Scope of Supply",
+      "RelativePath": "0001-3-Section_1_-_Scope_of_Supply.pdf",
+      "IsPartOfIndex": true,
+      "PageNo": 3,
+      "PageCount": 1
+    },
+    {
+      "$id": "4",
+      "CommonDescription": "Section 2 - Certificates",
+      "RelativePath": "0002-4-Section_2_-_Certificates.pdf",
+      "IsPartOfIndex": true,
+      "PageNo": 4,
+      "PageCount": 1
+    },
+    {
+      "$id": "5",
+      "CommonDescription": "2.09 EN 10204 Material Certificate",
+      "RelativePath": "Section_2_-_Certificates\\0003-5-2.09_EN_10204_Material_Certificate.pdf",
+      "IsPartOfIndex": true,
+      "PageNo": 5,
+      "PageCount": 1
+    },
+    {
+      "$id": "6",
+      "BatchData": {
+        "$id": "7",
+        "PoNo": "F1579",
+        "CustomersRef": "R03",
+        "SupplierOrderDate": "2017-05-07T14:06:00",
+        "SupplierDelNo": "8973-1",
+        "SupplierDelDate": "2017-05-14T00:00:00",
+        "Lines": [
+          {
+            "$id": "8",
+            "SpecificationPage": 1,
+            "PoLineNo": "08",
+            "ArticleNo": "456",
+            "ArticleDescription": "Welded pipe U03 Cl.1",
+            "Dimension": "60 mm",
+            "Quality": "S32550",
+            "Quantity": 12.0,
+            "QuantityUnit": "m",
+            "BatchId": "H-6869"
+          }
+        ],
+        "ProjectNo": "P4598",
+        "ProjectName": "Workers Block",
+        "ProjectEmail": "block@demo.c",
+        "SupplierSoNo": "8973",
+        "SupplierOrderContactPerson": "R02",
+        "SupplierRef": "R01",
+      },
+      "CommonDescription": "H-6869 - Welded pipe U03 Cl.1",
+      "RelativePath": "Section_2_-_Certificates\\2.09_EN_10204_Material_Certificate\\CO_F1579_-_Del_8973-1_14.05.2017____1\\0004-6-H-6869_-_Welded_pipe_U03_Cl.1.pdf",
+      "SenderDocNo": "2014101200043",
+      "Issuer": "Theta Development AS",
+      "IssuedDocNo": "20141001001",
+      "PageNo": 6,
+      "PageCount": 1,
+      "DocType": "Material Certificate",
+      "DocTypeDescription": "Material Certificate"
+    },
+    {
+      "$id": "9",
+      "BatchData": {
+        "$id": "10",
+        "Lines": [
+          {
+            "$id": "11",
+            "SpecificationPage": 1,
+            "ArticleNo": "AR219",
+            "ArticleDescription": "Avesta Rørtråd",
+            "Dimension": "0.90 MM FCW 316L a'12,5 kg",
+            "Quality": "",
+            "Quantity": 0.0,
+            "QuantityUnit": "rull",
+            "BatchId": "HPZ897",
+            "LotNo": "LH389"
+          }
+        ]
+      },
+      "CommonDescription": "HPZ897 - Avesta Rørtråd",
+      "RelativePath": "Section_2_-_Certificates\\2.09_EN_10204_Material_Certificate\\Historical\\Other____1\\0005-7-HPZ897_-_Avesta_R_rtr_d.pdf",
+      "SenderDocNo": "Multiple-00050",
+      "Issuer": "Demo, inc. Mfg",
+      "IssuedDocNo": "7292-597",
+      "PageNo": 7,
+      "PageCount": 1,
+      "DocType": "Historical Material Certificate",
+      "DocTypeDescription": "Historical Material Certificate"
+    },
+    {
+      "$id": "12",
+      "DocData": {
+        "$id": "13",
+        "Description": "Tube 3",
+        "Reference": "R01",
+        "IsExpiring": false
+      },
+      "CommonDescription": "Tube 3",
+      "RelativePath": "Section_2_-_Certificates\\2.09_EN_10204_Material_Certificate\\Historical\\Simple____1\\0006-8-Tube_3.pdf",
+      "RelativePathBaseFile": "Section_2_-_Certificates\\2.09_EN_10204_Material_Certificate\\Historical\\Simple____1\\0006-8-Tube_3.pdf",
+      "SenderDocNo": "D-20140219-00048",
+      "DocRevision": "C*",
+      "DocRevisionDate": "2017-05-18T14:06:00",
+      "PageNo": 8,
+      "PageCount": 1,
+      "DocType": "Historical Material Certificate",
+      "DocTypeDescription": "Historical Material Certificate"
+    },
+    {
+      "$id": "14",
+      "CommonDescription": "Section 3 - List of Procedures",
+      "RelativePath": "0007-9-Section_3_-_List_of_Procedures.pdf",
+      "IsPartOfIndex": true,
+      "PageNo": 9,
+      "PageCount": 1
+    },
+    {
+      "$id": "15",
+      "CommonDescription": "Section 4 - Reports",
+      "RelativePath": "0008-10-Section_4_-_Reports.pdf",
+      "IsPartOfIndex": true,
+      "PageNo": 10,
+      "PageCount": 1
+    },
+    {
+      "$id": "16",
+      "CommonDescription": "4.11 Leak Test Report",
+      "RelativePath": "Section_4_-_Reports\\0009-11-4.11_Leak_Test_Report.pdf",
+      "IsPartOfIndex": true,
+      "PageNo": 11,
+      "PageCount": 1
+    },
+    {
+      "$id": "17",
+      "DocData": {
+        "$id": "18",
+        "Description": "HEPA/ULPA Leak Test",
+        "Reference": "Florida",
+        "IsExpiring": false,
+        "Status": "2",
+        "DueDate": "2017-07-02T14:06:00"
+      },
+      "CommonDescription": "HEPA/ULPA Leak Test",
+      "RelativePath": "Section_4_-_Reports\\4.11_Leak_Test_Report\\0010-12-HEPA_ULPA_Leak_Test.pdf",
+      "RelativePathBaseFile": "Section_4_-_Reports\\4.11_Leak_Test_Report\\0010-12-HEPA_ULPA_Leak_Test.docX",
+      "ProjectDocNo": "B-8V-I10-9",
+      "SenderDocNo": "D-20140219-00017",
+      "DocRevision": "E*",
+      "DocRevisionDate": "2017-05-18T14:06:00",
+      "PageNo": 12,
+      "PageCount": 1,
+      "DocType": "Leak Test Report",
+      "DocTypeDescription": "Leak Test Report"
+    },
+    {
+      "$id": "19",
+      "DocData": {
+        "$id": "20",
+        "Description": "Tube 1 - Helium Leak Test",
+        "Reference": "SEAL/225",
+        "IsExpiring": false,
+        "Status": "1"
+      },
+      "CommonDescription": "Tube 1 - Helium Leak Test",
+      "RelativePath": "Section_4_-_Reports\\4.11_Leak_Test_Report\\0011-13-Tube_1_-_Helium_Leak_Test.pdf",
+      "RelativePathBaseFile": "Section_4_-_Reports\\4.11_Leak_Test_Report\\0011-13-Tube_1_-_Helium_Leak_Test.pdf",
+      "ProjectDocNo": "B-A1-N5-8",
+      "SenderDocNo": "D-20140219-00016",
+      "DocRevision": "A*",
+      "DocRevisionDate": "2017-05-22T13:41:13.8249698+02:00",
+      "PageNo": 13,
+      "PageCount": 1,
+      "DocType": "Leak Test Report",
+      "DocTypeDescription": "Leak Test Report"
+    }
+  ]
+}
