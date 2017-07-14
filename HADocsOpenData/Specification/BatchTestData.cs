@@ -9,7 +9,7 @@ namespace HADocsOpenData.Specification {
 
         public IList<BatchTestDataValue> TestValues = new List<BatchTestDataValue>();
 
-        public void AddTestValue(string qual, decimal value, string unit = "%", string notes = null) {
+        public void AddTestValue(string qual, decimal? value, string unit = "%", string notes = null) {
             TestValues.Add(new BatchTestDataValue {
                 Qualifier = qual,
                 Value = value,
