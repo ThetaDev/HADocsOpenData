@@ -29,6 +29,8 @@
           {
             "$id": "4",
             "SpecificationPage": 1,
+            "MarkerAtPercentageFromTop": 30,
+            "SpecificationPageIsLandscape": false,
             "RelatedPages": "1-2,4-6,7,10",
             "PoLineNo": "010",
             "ArticleNo": "Customers article no",

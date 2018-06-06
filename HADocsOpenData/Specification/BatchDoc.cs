@@ -57,6 +57,8 @@ namespace HADocsOpenData.Specification {
     /// </summary>
     public class BatchDocLineSpec {
         public int SpecificationPage = 1;
+        public int? MarkerAtPercentageFromTop = 30; //A percentage of the height (from the top of the page) to mark as an identifier for where the relevant information can be found.
+        public bool? SpecificationPageIsLandscape = false; //Indicates whether the page is landscape or portrait.
         public string RelatedPages = "1-2,4-6,7,10"; //if empty it is assumed all pages of file are related to this line
         public string PoLineNo = "010";
         public string ArticleNo = "Customers article no";
